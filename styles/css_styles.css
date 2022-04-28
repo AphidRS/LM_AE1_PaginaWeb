@@ -87,6 +87,6 @@ section {
 
 }
 
-a:visited {
+.menu a:visited {
     color: rgb(255, 255, 255);
   }
