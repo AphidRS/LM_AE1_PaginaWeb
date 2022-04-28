@@ -17,15 +17,14 @@ body {
     color: #000000;
     background-color: #ffffff;
     text-rendering: optimizeLegibility;
-    hyphens: auto;
-
 }
 
 section {
-    width:80%;
+    width:60%;
     height: 80%;
     margin:10px;
-    border: #000000;
+    border: 3px #000000;
+    margin:auto;
 
 }
 
