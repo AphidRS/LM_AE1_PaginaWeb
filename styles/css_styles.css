@@ -20,6 +20,8 @@ body {
 }
 
 section {
+    position:inline-block;
+    float: left;
     width:60%;
     height: 80%;
     margin:10px;
@@ -31,6 +33,8 @@ section {
 }
 
 aside {
+    position:inline-block;
+    float: right;
     width:30%;
     height: 80%;
     margin:10px;
