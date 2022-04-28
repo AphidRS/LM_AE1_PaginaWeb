@@ -21,6 +21,13 @@ body {
 
 }
 
+section {
+    width:80%;
+    height: 80%;
+    margin:10px;
+    border: #000000;
+
+}
 
 .central    {
     border: 3px #000 dashed;
@@ -69,8 +76,7 @@ body {
 
 .menu a:hover   {
     color: rgb(134, 255, 78);
-    margin-bottom: 4px;
-    border: 10px;
+
 
 }
 
