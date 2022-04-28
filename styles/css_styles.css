@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'versaversa';
+    src: url('fonts/versa-versa-webfont.woff2') format('woff2'),
+         url('fonts/versa-versa-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style:normal;
+
+}
+
+body {
+    width:100%;
+    height:100%;
+    margin:auto;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    background-color: #ffffff;
+    text-rendering: optimizeLegibility;
+    hyphens: auto;
+
+}
+
+
+.central    {
+    border: 3px #000 dashed;
+    margin: 10px;
+    padding: 30px;
+    font-size: 20px;
+    font-family: arial;
+    text-align: center;
+    width: 95%;
+    height: 300px;
+}
+
+.cabecera   {
+    background-color: #171816;
+}
+
+.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 147px;
+    width: 317px;
+    background-color: #171816;
+}
+
+.botones {
+    margin-right:20px;
+    text-decoration:solid;
+
+}
+
+.menu {
+    padding: 1ex 0ex 1ex 0ex;
+    background-color: #171814;
+    background-position: center;
+    text-align:center;
+    max-width: 100%;
+    left: 20px;
+    font-family:'versaversa', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    
+
+  }
+
+.menu a:hover   {
+    color: rgb(134, 255, 78);
+    margin-bottom: 4px;
+    border: 10px;
+
+}
+
+.menu a:link   {
+    color: rgb(255, 255, 255);
+
+
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+  }
