@@ -76,18 +76,18 @@ section {
 
   }
 
-.menu a:hover   {
+a:hover   {
     color: rgb(134, 255, 78);
 
 
 }
 
-.menu a:link   {
+a:link   {
     color: rgb(255, 255, 255);
 
 
 }
 
-.menu a:visited {
+a:visited {
     color: rgb(255, 255, 255);
   }
