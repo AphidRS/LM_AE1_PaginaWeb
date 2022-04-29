@@ -14,7 +14,7 @@ body {
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
     font-weight: 400;
-    color: #000000;
+    color: #ffffff;
     background-color: #171816;
     background-image:url("/images/wallpaper.jpg");
     text-rendering: optimizeLegibility;
@@ -28,7 +28,7 @@ section {
     padding: 10px;
     margin-top: 50px;
     margin-left: 80px;
-    background-color: white;
+    background-color: #171816;
     border: 4px #171814;
 
 }
@@ -41,7 +41,7 @@ aside {
     padding: 10px;
     margin-top: 50px;
     margin-right: 80px;
-    background-color: white;
+    background-color: #171816;
     border: 4px #171814;
 
 }
