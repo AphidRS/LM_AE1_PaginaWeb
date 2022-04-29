@@ -21,13 +21,11 @@ body {
 
 section {
     position:inline-block;
-    float: center;
+    float: left;
     width:60%;
     height: 80%;
-    margin:10px;
-    margin:auto;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
     background-color: white;
 
 }
@@ -37,10 +35,8 @@ aside {
     float: right;
     width:30%;
     height: 80%;
-    margin:10px;
-    margin:auto;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
     background-color: white;
     ;
 
