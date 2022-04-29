@@ -34,7 +34,7 @@ section {
 
 aside {
     position:inline-block;
-    float: center;
+    float: right;
     width:30%;
     height: 80%;
     margin:10px;
@@ -106,3 +106,14 @@ a:link   {
 a:visited {
     color: rgb(255, 255, 255);
   }
+
+.img_aside {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 350px;
+    border-color: 5px rgb(0, 255, 85);
+    
+    
+}
