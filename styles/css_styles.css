@@ -21,7 +21,7 @@ body {
 
 section {
     position:inline-block;
-    float: left;
+    float: center;
     width:60%;
     height: 80%;
     margin:10px;
@@ -34,7 +34,7 @@ section {
 
 aside {
     position:inline-block;
-    float: right;
+    float: center;
     width:30%;
     height: 80%;
     margin:10px;
