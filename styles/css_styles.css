@@ -17,7 +17,6 @@ body {
     color: #000000;
     background-color: #171816;
     background-image:url("/images/wallpaper.jpg");
-    background-repeat: no-repeat;
     text-rendering: optimizeLegibility;
 }
 
