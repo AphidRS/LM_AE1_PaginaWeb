@@ -151,7 +151,7 @@ a:hover   {
     font-weight:bold;
     font-style:normal;
     font-size: 20px;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 .formulario1  {
@@ -214,6 +214,20 @@ a:hover   {
     font-weight: normal;
     font-style: normal;
     font-size: 14px;
+    
+
+}
+
+.formulario5  {
+    display: block;
+    padding: 10px;
+    background-color: #59ff99;
+    background-position: center;
+    color:#000;
+    text-align:center;
+    width: auto;
+    margin: auto;
+
     
 
 }
