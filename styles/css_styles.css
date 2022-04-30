@@ -139,7 +139,7 @@ a:hover   {
 
 .titulo_form  {
     display: block;
-    padding: 10px;
+    padding: 5px;
     border-color: #171814;
     border-style: solid;
     background-color: #c7c7c7;
@@ -151,18 +151,49 @@ a:hover   {
     font-weight:bold;
     font-style:normal;
     font-size: 20px;
-    margin-left: 150px;
     margin-top: 50px;
 }
 
-.formulario  {
+.formulario1  {
     display: block;
-    padding: 1ex 0ex 1ex 0ex;
+    padding: 5px;
     background-color: #c7c7c7;
     background-position: center;
     color:#000;
     text-align:left;
-    width: 60%;
+    width: auto;
+    margin: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    
+
+}
+
+.formulario2  {
+    display: block;
+    padding: 10px;
+    background-color: #fff9a7;
+    background-position: center;
+    color:#000;
+    text-align:left;
+    width: auto;
+    margin: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    
+
+}
+
+.formulario3  {
+    display: block;
+    padding: 10px;
+    background-color: #b0dcff;
+    background-position: center;
+    color:#000;
+    text-align:left;
+    width: auto;
     margin: auto;
     font-weight: normal;
     font-style: normal;
