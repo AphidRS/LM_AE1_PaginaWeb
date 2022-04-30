@@ -53,7 +53,12 @@ footer  {
     padding: 10px;
     text-align: center;
     background-color: #171816;
-    border: 4px #bfff00;
+    font-family:'versaversa', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    color:rgb(101, 255, 134) ;
+    
 
 }
 
@@ -102,11 +107,7 @@ footer  {
 
   }
 
-.menu a:hover   {
-    color: rgb(134, 255, 78);
 
-
-}
 
 a:link   {
     color: rgb(255, 255, 255);
@@ -118,12 +119,19 @@ a:visited {
     color: rgb(255, 255, 255);
   }
 
+a:hover   {
+    color: rgb(134, 255, 78);
+
+
+}
+
 .img_aside {
     display:block;
     margin-left: auto;
     margin-right: auto;
     height: 150px;
     width: 350px;
+    margin: auto;
     border-color: 5px rgb(0, 255, 85);
     
     
@@ -138,7 +146,8 @@ a:visited {
     background-position: center;
     color:#000;
     text-align:center;
-    max-width: 80%;
+    width: 50%;
+    margin: auto;
     font-weight:bold;
     font-style:normal;
     font-size: 20px;
@@ -147,15 +156,18 @@ a:visited {
 }
 
 .formulario  {
+    display: block;
     padding: 1ex 0ex 1ex 0ex;
     background-color: #c7c7c7;
     background-position: center;
     color:#000;
     text-align:left;
-    max-width: 80%;
+    width: 60%;
+    margin: auto;
     font-weight: normal;
     font-style: normal;
     font-size: 14px;
+    
 
 }
 
