@@ -29,11 +29,13 @@
                   <th>Apellidos:</th>
                   <th>Nombre:</th>
                   <th>Telefono:</th>
+                  <th>Email:</th>
                 </tr>
                 <tr>
                   <td><input type="text" name="apellidos" size="40"></td>
                   <td><input type="text" name="nombre"/></td>
-                  <td><input type="text" name="telefono"/></td>
+                  <td><input type="number" name="telefono"/></td>
+                  <td><input type="email" id="email" name="email" size="30"></td>
                 </tr>
                 <tr>
                   <th>Domicilio (Calle,plaza y numero):</th>
@@ -58,27 +60,50 @@
     <div class="formulario2">
       <fieldset>
           <legend>Seleccione profesional que desea contratar (*)</legend>
-          <input type="radio" id="Software Engineer" name="fav_language" value="Software Engineer">
+          <input type="radio" id="Software Engineer" name="Software Engineer" value="Software Engineer">
           <label for="Software Engineer">Software Engineer</label><br>
-          <input type="radio" id="Data Scientist" name="fav_language" value="Data Scientist">
+          <input type="radio" id="Data Scientist" name="Data Scientist" value="Data Scientist">
           <label for="Data Scientist">Data Scientist</label><br>
-          <input type="radio" id="QA Tester" name="fav_language" value="QA Tester">
+          <input type="radio" id="QA Tester" name="QA Tester" value="QA Tester">
           <label for="QA Tester">QA Tester</label><br> 
-          <input type="radio" id="Web Developer" name="fav_language" value="Web Developer">
+          <input type="radio" id="Web Developer" name="Web Developer" value="Web Developer">
           <label for="Web Developer">Web Developer</label><br> 
-          <input type="radio" id="UX Designer" name="fav_language" value="UX Designer">
+          <input type="radio" id="UX Designer" name="UX Designer" value="UX Designer">
           <label for="UX Designer">UX Designer</label><br>  
       </div> 
     <div class="formulario3">
       <fieldset>
+      <legend>Metodo de desarrollo de su preferencia (*)</legend>
       <input type="checkbox" id="metodo1" name="metodo1" value="metodo1">
       <label for="metodo1"> Kanban</label><br>
       <input type="checkbox" id="metodo2" name="metodo2" value="metodo2">
       <label for="metodo2"> Scrum</label><br>
       <input type="checkbox" id="metodo3" name="metodo3" value="metodo3">
-      <label for="metodo3"> Lean</label>
+      <label for="metodo3"> Lean</label><br>
       <input type="checkbox" id="metodo4" name="metodo4" value="metodo4">
       <label for="metodo4"> Waterfall</label>
+    </div>
+    <div class="formulario4">
+      <fieldset>
+      <legend>Descripcion del proyecto y fecha de finalizacion</legend>
+      <table>
+        <tr>
+          <th>Fecha de Entrega:</th>
+          <th></th>
+          <th></th>
+          <td></td>
+          <td></td>
+          <th>Adjuntar archivo:</th>
+        </tr>
+        <tr>
+          <td><input type="date" id="proyect_time" name="proyect_time"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td><input type="file" id="adjunto" name="adjunto"></td>
+        </tr>
+        </table>
     </div>
   </form>
   
