@@ -205,8 +205,8 @@ a:hover   {
     background-position: center;
     color:#000;
     text-align:center;
-    width: 50%;
-    min-width:fit-content;
+    max-width: 40%;
+    min-width: fit-content;
     margin: auto;
     font-weight:bold;
     font-style:normal;
