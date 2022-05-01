@@ -444,6 +444,7 @@ a:hover   {
     color:#000;
     text-align:center;
     width: 50%;
+    min-width:fit-content;
     margin: auto;
     font-weight:bold;
     font-style:normal;
@@ -452,7 +453,7 @@ a:hover   {
 }
 
 .formulario1  {
-    display: block;
+    display:block;
     padding: 10px;
     background-color: #c7c7c7;
     background-position: center;
