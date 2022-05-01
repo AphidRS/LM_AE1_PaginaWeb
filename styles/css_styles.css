@@ -1,3 +1,7 @@
+/********************/
+/********DESKTOP*********/
+/********************/
+/********************/
 @media screen 
 and (min-device-width: 1300px) 
 {
@@ -34,7 +38,6 @@ and (max-device-width: 1300px)
         position: absolute;
         width: auto;
         margin-bottom: 5%;
-        background-color: #00ff62;
     }
 
     #aside {
@@ -64,7 +67,6 @@ and (orientation: portrait)
         position: absolute;
         width: 100%;
         margin-bottom: 5%;
-        background-color: #2f00ff;
     }
 
     #aside {
@@ -95,7 +97,6 @@ and (orientation: landscape)
         position: absolute;
         width: auto;
         margin-bottom: 5%;
-        background-color: #e5ff00;
     }
 
     #aside {
@@ -126,7 +127,6 @@ and (orientation: portrait)
         position: absolute;
         width: auto;
         margin-bottom: 5%;
-        background-color: #a200ff;
     }
 
     #aside {
