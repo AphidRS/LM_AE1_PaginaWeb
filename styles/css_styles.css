@@ -1,37 +1,20 @@
 @media screen and (min-device-width: 1300px) {
-    #montania {
-        display: flex;
-        margin-bottom: 2.5%;
-        margin-left: 15%;
-        margin-top: 3%;
+    #section   {
+        position: absolute;
+        width: auto;
     }
 
-    #agua {
-        display: flex;
-        margin-left: 15%;
+    #aside {
+        float: center;
+        width: auto;
     }
 
-    #escalada img {
-        align-items: center;
-        width: 118%;
+    .titulo_form    {
+        float: center;
+
     }
 
-    #senderismo {
-        margin-left: 35%;
-    }
-
-    #senderismo img {
-        width: 55%;
-    }
-
-    #piraguismo img {
-        width: 53%;
-        margin-right: 150%;
-    }
-
-    #rafting img {
-        width: 50%;
-    }
+  
 }
 
 /********************/
@@ -40,39 +23,22 @@
 /********************/
 
 @media screen and (min-device-width: 900px) and (max-device-width: 1300px) {
-    #montania {
-        display: flex;
-        margin-bottom: 2.5%;
-        margin-left: 15%;
-        margin-top: 3%;
+    #section   {
+        position: absolute;
+        width: auto;
     }
 
-    #agua {
-        display: flex;
-        margin-left: 15%;
+    #aside {
+        float: center;
+        width: auto;
     }
 
-    #escalada img {
-        align-items: center;
-        width: 118%;
+    .titulo_form    {
+        float: center;
+
     }
 
-    #senderismo {
-        margin-left: 35%;
-    }
-
-    #senderismo img {
-        width: 55%;
-    }
-
-    #piraguismo img {
-        width: 53%;
-        margin-right: 150%;
-    }
-
-    #rafting img {
-        width: 50%;
-    }
+  
 }
 
 /********IPHONE**********/
@@ -80,39 +46,22 @@
 /********************/
 
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
-    #montania {
-        display: flex;
-        margin-bottom: 2.5%;
-        margin-left: 15%;
-        margin-top: 3%;
+    #section   {
+        position: absolute;
+        width: auto;
     }
 
-    #agua {
-        display: flex;
-        margin-left: 15%;
+    #aside {
+        float: center;
+        width: auto;
     }
 
-    #escalada img {
-        align-items: center;
-        width: 118%;
+    .titulo_form    {
+        float: center;
+
     }
 
-    #senderismo {
-        margin-left: 35%;
-    }
-
-    #senderismo img {
-        width: 55%;
-    }
-
-    #piraguismo img {
-        width: 53%;
-        margin-right: 150%;
-    }
-
-    #rafting img {
-        width: 50%;
-    }
+  
 }
 
 /********************/
@@ -121,39 +70,22 @@
 /********************/
 
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
-    #montania {
-        display: flex;
-        margin-bottom: 2.5%;
-        margin-left: 15%;
-        margin-top: 3%;
+    #section   {
+        position: absolute;
+        width: auto;
     }
 
-    #agua {
-        display: flex;
-        margin-left: 15%;
+    #aside {
+        float: center;
+        width: auto;
     }
 
-    #escalada img {
-        align-items: center;
-        width: 118%;
+    .titulo_form    {
+        float: center;
+
     }
 
-    #senderismo {
-        margin-left: 35%;
-    }
-
-    #senderismo img {
-        width: 55%;
-    }
-
-    #piraguismo img {
-        width: 53%;
-        margin-right: 150%;
-    }
-
-    #rafting img {
-        width: 50%;
-    }
+  
 }
 
 /********************/
@@ -162,39 +94,22 @@
 /********************/
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) {
-    #montania {
-        display: flex;
-        margin-bottom: 2.5%;
-        margin-left: 15%;
-        margin-top: 3%;
+    #section   {
+        position: absolute;
+        width: auto;
     }
 
-    #agua {
-        display: flex;
-        margin-left: 15%;
+    #aside {
+        float: center;
+        width: auto;
     }
 
-    #escalada img {
-        align-items: center;
-        width: 118%;
+    .titulo_form    {
+        float: center;
+
     }
 
-    #senderismo {
-        margin-left: 35%;
-    }
-
-    #senderismo img {
-        width: 55%;
-    }
-
-    #piraguismo img {
-        width: 53%;
-        margin-right: 150%;
-    }
-
-    #rafting img {
-        width: 50%;
-    }
+  
 }
 
 /********************/
@@ -203,39 +118,22 @@
 /********************/
 
 @media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) {
-    #montania {
-        display: flex;
-        margin-bottom: 2.5%;
-        margin-left: 15%;
-        margin-top: 3%;
+    #section   {
+        position: absolute;
+        width: auto;
     }
 
-    #agua {
-        display: flex;
-        margin-left: 15%;
+    #aside {
+        float: center;
+        width: auto;
     }
 
-    #escalada img {
-        align-items: center;
-        width: 118%;
+    .titulo_form    {
+        float: center;
+
     }
 
-    #senderismo {
-        margin-left: 35%;
-    }
-
-    #senderismo img {
-        width: 55%;
-    }
-
-    #piraguismo img {
-        width: 53%;
-        margin-right: 150%;
-    }
-
-    #rafting img {
-        width: 50%;
-    }
+  
 }
 
 @font-face {
@@ -262,14 +160,14 @@ body {
 }
 
 section {
-    float: left;
-    width:auto;
-    max-width: 40%;
+    float:left;
+    width:50%;
+    max-width:50%;
     height:fit-content;
     padding: 10px;
     margin-top: 2%;
-    margin-right: 33%;
-    margin-left:33%;
+    margin-right: 2%;
+    margin-left:6%;
     margin-bottom: 5%;
     background-color: #1718167a;
     border-color: #171814;
@@ -278,14 +176,14 @@ section {
 }
 
 aside {
-    float: right;
-    width:auto;
-    max-width: 30%;
+    float:right;
+    width:30%;
+    max-width:30%;
     height:fit-content;
     padding: 10px;
     margin-top: 2%;
-    margin-left: 33%;
-    margin-right: 33%;
+    margin-left: 2%;
+    margin-right: 6%;
     margin-bottom: 5%;
     background-color: #17181677;
     border-color: #171814;
@@ -334,7 +232,6 @@ footer  {
 .menu {
     padding: 5px;
     background-image: linear-gradient(rgb(44, 44, 44), black,rgb(44, 44, 44)); 
-    /*background-color: #171814;*/
     background-position: center;
     text-align:center;
     max-width: 100%;
@@ -407,6 +304,12 @@ a:visited {
 a:hover   {
     color: rgb(134, 255, 78);
 
+
+}
+
+.main {
+    margin: auto;
+    padding: auto;
 
 }
 
