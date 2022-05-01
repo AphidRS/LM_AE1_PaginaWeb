@@ -39,29 +39,33 @@
                   <th>Apellidos:</th>
                   <th>Nombre:</th>
                   <th>Telefono:</th>
-                  <th>Email:</th>
                 </tr>
                 <tr>
                   <td><input type="text" name="apellidos" size="40" required></td>
                   <td><input type="text" name="nombre" required/></td>
                   <td><input type="text" name="telefono" required size="10"/></td>
-                  <td><input type="email" id="email" name="email" size="20" required></td>
+                </tr>
+                <tr>
+                  <th>Email:</th>
+                  <th><label for="provincia">Provincia:</label></th>
+                </tr>
+                <tr>
+                <td><input type="email" id="email" name="email" size="40" required></td>
+                <td><select required name="provincia" class="form-control" required>
+                  <option value="Madrid">Madrid</option>
+                  <option value="Cataluña">Cataluña</option>
+                  <option value="Valencia">Valencia</option>
+                  <option value="Sevilla">Sevilla</option>
+                </select></td> 
                 </tr>
                 <tr>
                   <th>Domicilio (Calle,plaza y numero):</th>
                   <th>Localidad:</th>
-                  <th> <label for="provincia">Provincia:</label>
-                  </th>
                 </tr>
                 <tr>
                   <td><input type="text" name="domicilio" size="40"/></td>
                    <td><input type="text" name="localidad"/></td>
-                   <td><select required name="provincia" class="form-control" required>
-                    <option value="Madrid">Madrid</option>
-                    <option value="Cataluña">Cataluña</option>
-                    <option value="Valencia">Valencia</option>
-                    <option value="Sevilla">Sevilla</option>
-                  </select></tr></td> 
+     
                 </tr>
                  
   

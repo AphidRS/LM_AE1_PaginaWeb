@@ -52,13 +52,14 @@
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
     #section   {
         position: absolute;
-        width: auto;
+        width: 100%;
         margin-bottom: 5%;
+
     }
 
     #aside {
         position: relative;
-        width: auto;
+        width: 100%;
         margin-bottom: 5%;
     }
 
@@ -223,6 +224,9 @@ footer  {
 }
 
 .cabecera   {
+    width:auto;
+    height:auto;
+    margin:auto;
     background-color: #171816;
 }
 
@@ -246,7 +250,7 @@ footer  {
     background-image: linear-gradient(rgb(44, 44, 44), black,rgb(44, 44, 44)); 
     background-position: center;
     text-align:center;
-    max-width: 100%;
+    min-width: fit-content;
     left: 20px;
     font-family:'versaversa', Arial, sans-serif;
     font-weight: normal;
