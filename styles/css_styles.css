@@ -2,16 +2,18 @@
     #section   {
         position: absolute;
         width: auto;
+        margin-bottom: 5%;
     }
 
     #aside {
-        float: center;
+        position: relative;
         width: auto;
+        margin-bottom: 5%;
     }
 
     .titulo_form    {
         float: center;
-
+        width: auto;
     }
 
   
@@ -26,16 +28,18 @@
     #section   {
         position: absolute;
         width: auto;
+        margin-bottom: 5%;
     }
 
     #aside {
-        float: center;
+        position: relative;
         width: auto;
+        margin-bottom: 5%;
     }
 
     .titulo_form    {
         float: center;
-
+        width: auto;
     }
 
   
@@ -49,16 +53,18 @@
     #section   {
         position: absolute;
         width: auto;
+        margin-bottom: 5%;
     }
 
     #aside {
-        float: center;
+        position: relative;
         width: auto;
+        margin-bottom: 5%;
     }
 
     .titulo_form    {
         float: center;
-
+        width: auto;
     }
 
   
@@ -73,16 +79,18 @@
     #section   {
         position: absolute;
         width: auto;
+        margin-bottom: 5%;
     }
 
     #aside {
-        float: center;
+        position: relative;
         width: auto;
+        margin-bottom: 5%;
     }
 
     .titulo_form    {
         float: center;
-
+        width: auto;
     }
 
   
@@ -97,16 +105,18 @@
     #section   {
         position: absolute;
         width: auto;
+        margin-bottom: 5%;
     }
 
     #aside {
-        float: center;
+        position: relative;
         width: auto;
+        margin-bottom: 5%;
     }
 
     .titulo_form    {
         float: center;
-
+        width: auto;
     }
 
   
@@ -124,13 +134,15 @@
     }
 
     #aside {
-        float: center;
+        position: relative;
         width: auto;
+        margin-bottom: 5%;
     }
 
     .titulo_form    {
         float: center;
-
+        width: auto;
+        margin-bottom: 5%;
     }
 
   
@@ -304,12 +316,6 @@ a:visited {
 a:hover   {
     color: rgb(134, 255, 78);
 
-
-}
-
-.main {
-    margin: auto;
-    padding: auto;
 
 }
 
