@@ -1,4 +1,6 @@
-@media screen and (min-device-width: 1300px) {
+@media screen 
+and (min-device-width: 1300px) 
+{
     #section   {
         position: absolute;
         width: auto;
@@ -24,11 +26,15 @@
 /******Ancho fijo de resoluciones****/
 /********************/
 
-@media screen and (min-device-width: 900px) and (max-device-width: 1300px) {
+@media screen 
+and (min-device-width: 900px) 
+and (max-device-width: 1300px) 
+{
     #section   {
         position: absolute;
         width: auto;
         margin-bottom: 5%;
+        background-color: #00ff62;
     }
 
     #aside {
@@ -49,12 +55,16 @@
 /*******Portrait***********/
 /********************/
 
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (orientation: portrait) 
+{
     #section   {
         position: absolute;
         width: 100%;
         margin-bottom: 5%;
-
+        background-color: #2f00ff;
     }
 
     #aside {
@@ -76,11 +86,16 @@
 /*******Landscape**********/
 /********************/
 
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (orientation: landscape) 
+{
     #section   {
         position: absolute;
         width: auto;
         margin-bottom: 5%;
+        background-color: #e5ff00;
     }
 
     #aside {
@@ -102,11 +117,16 @@
 /*******Portrait*********/
 /********************/
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) {
+@media only screen 
+and (min-device-width: 1024px) 
+and (max-device-width: 1024px) 
+and (orientation: portrait) 
+{
     #section   {
         position: absolute;
         width: auto;
         margin-bottom: 5%;
+        background-color: #a200ff;
     }
 
     #aside {
@@ -128,7 +148,11 @@
 /*******Landscape**********/
 /********************/
 
-@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) {
+@media only screen 
+and (min-device-width: 1366px) 
+and (max-device-width: 1366px) 
+and (orientation: landscape) 
+{
     #section   {
         position: absolute;
         width: auto;
