@@ -16,19 +16,20 @@ body {
     font-weight: 400;
     color: #ffffff;
     background-color: #171816;
-    background-image:url("/images/wallpaper.jpg");
+    background-image:url("/images/wallpaper_pastel.jpg");
     text-rendering: optimizeLegibility;
 }
 
 section {
     position:inline-block;
-    float: left;
-    width:50%;
-    height: 80%;
+    float:inline-start;
+    width:auto;
+    max-width: 40%;
+    height: auto;
     padding: 10px;
-    margin-top: 50px;
-    margin-left: 80px;
-    background-color: #171816;
+    margin-top: 20px;
+    margin-left:30ex;
+    background-color: #1718167a;
     border-color: #ffffff;
     border-style: solid;
 
@@ -36,13 +37,14 @@ section {
 
 aside {
     position:inline-block;
-    float: right;
-    width:30%;
-    height: 80%;
+    float:inline-end;
+    width:auto;
+    max-width: 30%;
+    height: auto;
     padding: 10px;
-    margin-top: 50px;
-    margin-right: 80px;
-    background-color: #171816;
+    margin-top: 20px;
+    margin-right: 30ex;
+    background-color: #17181677;
     border-color: #ffffff;
     border-style: solid;
 
@@ -171,7 +173,19 @@ a:hover   {
 
 }
 
-.img_aside {
+.imgaside {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 350px;
+    margin: auto;
+    border-color: 5px rgb(0, 255, 85);
+    
+    
+}
+
+.imgsection {
     display:block;
     margin-left: auto;
     margin-right: auto;
