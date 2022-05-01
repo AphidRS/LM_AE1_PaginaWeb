@@ -1,178 +1,3 @@
-/********************/
-/********DESKTOP*********/
-/********************/
-/********************/
-@media screen 
-and (min-device-width: 1300px) 
-{
-    #section   {
-        position: absolute;
-        width: auto;
-        margin-bottom: 5%;
-    }
-
-    #aside {
-        position: relative;
-        width: auto;
-        margin-bottom: 5%;
-    }
-
-    .titulo_form    {
-        float: center;
-        width: auto;
-    }
-
-  
-}
-
-/********************/
-/********DESKTOP*********/
-/******Ancho fijo de resoluciones****/
-/********************/
-
-@media screen 
-and (min-device-width: 900px) 
-and (max-device-width: 1300px) 
-{
-    #section   {
-        position: absolute;
-        width: auto;
-        margin-bottom: 5%;
-    }
-
-    #aside {
-        position: relative;
-        width: auto;
-        margin-bottom: 5%;
-    }
-
-    .titulo_form    {
-        float: center;
-        width: auto;
-    }
-
-  
-}
-
-/********IPHONE**********/
-/*******Portrait***********/
-/********************/
-
-@media only screen 
-and (min-device-width: 414px) 
-and (max-device-width: 736px) 
-and (orientation: portrait) 
-{
-    #section   {
-        position: absolute;
-        width: 100%;
-        margin-bottom: 5%;
-    }
-
-    #aside {
-        position: relative;
-        width: 100%;
-        margin-bottom: 5%;
-    }
-
-    .titulo_form    {
-        float: center;
-        width: auto;
-    }
-
-  
-}
-
-/********************/
-/********IPHONE**********/
-/*******Landscape**********/
-/********************/
-
-@media only screen 
-and (min-device-width: 414px) 
-and (max-device-width: 736px) 
-and (orientation: landscape) 
-{
-    #section   {
-        position: absolute;
-        width: auto;
-        margin-bottom: 5%;
-    }
-
-    #aside {
-        position: relative;
-        width: auto;
-        margin-bottom: 5%;
-    }
-
-    .titulo_form    {
-        float: center;
-        width: auto;
-    }
-
-  
-}
-
-/********************/
-/********IPAD**********/
-/*******Portrait*********/
-/********************/
-
-@media only screen 
-and (min-device-width: 1024px) 
-and (max-device-width: 1024px) 
-and (orientation: portrait) 
-{
-    #section   {
-        position: absolute;
-        width: auto;
-        margin-bottom: 5%;
-    }
-
-    #aside {
-        position: relative;
-        width: auto;
-        margin-bottom: 5%;
-    }
-
-    .titulo_form    {
-        float: center;
-        width: auto;
-    }
-
-  
-}
-
-/********************/
-/********IPAD**********/
-/*******Landscape**********/
-/********************/
-
-@media only screen 
-and (min-device-width: 1366px) 
-and (max-device-width: 1366px) 
-and (orientation: landscape) 
-{
-    #section   {
-        position: absolute;
-        width: auto;
-    }
-
-    #aside {
-        position: relative;
-        width: auto;
-        margin-bottom: 5%;
-    }
-
-    .titulo_form    {
-        float: center;
-        width: auto;
-        margin-bottom: 5%;
-    }
-
-  
-}
-
 @font-face {
     font-family: 'versaversa';
     src: url('fonts/versa-versa-webfont.woff2') format('woff2'),
@@ -465,4 +290,180 @@ a:hover   {
 
     
 
+}
+
+/********************/
+/********DESKTOP*********/
+/********************/
+/********************/
+@media screen 
+and (min-device-width: 1300px) 
+{
+    #section   {
+        position: absolute;
+        width: auto;
+        margin-bottom: 5%;
+    }
+
+    #aside {
+        position: relative;
+        width: auto;
+        margin-bottom: 5%;
+    }
+
+    .titulo_form    {
+        float: center;
+        width: auto;
+    }
+
+  
+}
+
+/********************/
+/********DESKTOP*********/
+/******Ancho fijo de resoluciones****/
+/********************/
+
+@media screen 
+and (min-device-width: 900px) 
+and (max-device-width: 1300px) 
+{
+    #section   {
+        position: absolute;
+        width: auto;
+        margin-bottom: 5%;
+    }
+
+    #aside {
+        position: relative;
+        width: auto;
+        margin-bottom: 5%;
+    }
+
+    .titulo_form    {
+        float: center;
+        width: auto;
+    }
+
+  
+}
+
+/********IPHONE**********/
+/*******Portrait***********/
+/********************/
+
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (orientation: portrait) 
+{
+    #section   {
+        position: absolute;
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    #aside {
+        position: relative;
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    .titulo_form    {
+        float: center;
+        width: auto;
+    }
+
+  
+}
+
+/********************/
+/********IPHONE**********/
+/*******Landscape**********/
+/********************/
+
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (orientation: landscape) 
+{
+    #section   {
+        position: absolute;
+        width: auto;
+        margin-bottom: 5%;
+    }
+
+    #aside {
+        position: relative;
+        width: auto;
+        margin-bottom: 5%;
+    }
+
+    .titulo_form    {
+        float: center;
+        width: auto;
+    }
+
+  
+}
+
+/********************/
+/********IPAD**********/
+/*******Portrait*********/
+/********************/
+
+@media only screen 
+and (min-device-width: 1024px) 
+and (max-device-width: 1024px) 
+and (orientation: portrait) 
+{
+
+    #section   {
+        position: absolute;
+        width: auto;
+        margin-bottom: 5%;
+    }
+
+    #aside {
+        position: relative;
+        width: auto;
+        margin-bottom: 5%;
+    }
+
+    .titulo_form    {
+        float: center;
+        width: auto;
+    }
+
+  
+}
+
+/********************/
+/********IPAD**********/
+/*******Landscape**********/
+/********************/
+
+@media only screen 
+and (min-device-width: 1366px) 
+and (max-device-width: 1366px) 
+and (orientation: landscape) 
+{
+    #section   {
+        position: absolute;
+        width: auto;
+    }
+
+    #aside {
+        position: relative;
+        width: auto;
+        margin-bottom: 5%;
+    }
+
+    .titulo_form    {
+        float: center;
+        width: auto;
+        margin-bottom: 5%;
+    }
+
+  
 }
