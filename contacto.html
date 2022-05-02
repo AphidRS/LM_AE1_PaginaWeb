@@ -1,91 +1,98 @@
 <!DOCTYPE html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>NEW CODERS</title>
-    <link rel="stylesheet" href="/styles/css_styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEW CODERS</title>
+  <link rel="stylesheet" href="/styles/css_styles.css">
 </head>
 
-<div class="cabecera">
-  <a title="Nuestro Logo" href="/"><img class="banner" src="images/Logo.png" alt="[Coding]"></a><br>
+<header>
+  <div class="cabecera">
+    <a title="Nuestro Logo" href="/"><img class="banner" src="images/Logo.png" alt="[Coding]"></a><br>
+  </div>
+</header>
 
-      <div class="menu">
-          <a class="botones" href="/index.html"> HOME </a>
-          <a class="botones" href="/actuacion.html" title="Areas de actuacion">AREAS DE ACTUACION </a>
-          <a class="botones" href="/contacto.html" title="Como contactar con nosotros">CONTACTO</a>
-          <a class="botones" href="/noticias.html">NOTICIAS</a> 
-          <a class="botones" href="/publicaciones.html" title="Publicaciones">PUBLICACIONES</a> 
-          <a class="botones" href="/localizacion.html" title="Localizacion">LOCALIZACION</a> 
-          <div class="dropdown">
-              <button class="dropbtn">> REDES SOCIALES <</button>
-              <div class="dropdown-content">
-              <a href="https://www.google.com">Google</a>
-              <a href="https://www.facebook.com">Facebook</a>
-              <a href="https://www.youtube.com">YouTube</a>
-              
-              </div>
-          </div>
+<nav>
+  <div class="menu">
+    <a class="botones" href="/index.html"> HOME </a>
+    <a class="botones" href="/actuacion.html" title="Areas de actuacion">AREAS DE ACTUACION </a>
+    <a class="botones" href="/contacto.html" title="Como contactar con nosotros">CONTACTO</a>
+    <a class="botones" href="/noticias.html">NOTICIAS</a>
+    <a class="botones" href="/publicaciones.html" title="Publicaciones">PUBLICACIONES</a>
+    <a class="botones" href="/localizacion.html" title="Localizacion">LOCALIZACION</a>
+    <a class="botones" href="/quien_somos.html" title="Quienes Somos">QUIENES SOMOS</a>
+
+    <div class="dropdown">
+      <button class="dropbtn"> REDES SOCIALES </button>
+      <div class="dropdown-content">
+        <a href="https://www.google.com">Google</a>
+        <a href="https://www.facebook.com">Facebook</a>
+        <a href="https://www.youtube.com">YouTube</a>
+
       </div>
-
-</div>
-    <form action="procesarPeticion.jsp" class="titulo_form" method="get">SOLICITUD ASISTENCIA AL DESARROLLO
-    <div class="formulario1">
-           
-        <fieldset>
-            <legend>Datos personales(*)</legend>
-            <table>
-                <tr>
-                  <th>Apellidos:</th>
-                  <th>Nombre:</th>
-                  <th>Telefono:</th>
-                </tr>
-                <tr>
-                  <td><input type="text" name="apellidos" size="40" required></td>
-                  <td><input type="text" name="nombre" required/></td>
-                  <td><input type="text" name="telefono" required size="10"/></td>
-                </tr>
-                <tr>
-                  <th>Email:</th>
-                  <th><label for="provincia">Provincia:</label></th>
-                </tr>
-                <tr>
-                <td><input type="email" id="email" name="email" size="40" required></td>
-                <td><select required name="provincia" class="form-control" required>
-                  <option value="Madrid">Madrid</option>
-                  <option value="Cataluña">Cataluña</option>
-                  <option value="Valencia">Valencia</option>
-                  <option value="Sevilla">Sevilla</option>
-                </select></td> 
-                </tr>
-                <tr>
-                  <th>Domicilio (Calle,plaza y numero):</th>
-                  <th>Localidad:</th>
-                </tr>
-                <tr>
-                  <td><input type="text" name="domicilio" size="40"/></td>
-                   <td><input type="text" name="localidad"/></td>
-     
-                </tr>
-                 
-  
-              </table>
     </div>
-    <div class="formulario2">
-      <fieldset>
-          <legend>Seleccione profesional que desea contratar (*)</legend>
-          <input type="radio" id="Software Engineer" name="Software Engineer" value="Software Engineer">
-          <label for="Software Engineer">Software Engineer</label><br>
-          <input type="radio" id="Data Scientist" name="Data Scientist" value="Data Scientist">
-          <label for="Data Scientist">Data Scientist</label><br>
-          <input type="radio" id="QA Tester" name="QA Tester" value="QA Tester">
-          <label for="QA Tester">QA Tester</label><br> 
-          <input type="radio" id="Web Developer" name="Web Developer" value="Web Developer">
-          <label for="Web Developer">Web Developer</label><br> 
-          <input type="radio" id="UX Designer" name="UX Designer" value="UX Designer">
-          <label for="UX Designer">UX Designer</label><br>  
-      </div> 
-    <div class="formulario3">
-      <fieldset>
+
+</nav>
+
+<form action="procesarPeticion.jsp" class="titulo_form" method="get">SOLICITUD ASISTENCIA AL DESARROLLO
+  <div class="formulario1">
+
+    <fieldset>
+      <legend>Datos personales(*)</legend>
+      <table>
+        <tr>
+          <th>Apellidos:</th>
+          <th>Nombre:</th>
+          <th>Telefono:</th>
+        </tr>
+        <tr>
+          <td><input type="text" name="apellidos" size="40" required></td>
+          <td><input type="text" name="nombre" required /></td>
+          <td><input type="text" name="telefono" required size="10" /></td>
+        </tr>
+        <tr>
+          <th>Email:</th>
+          <th><label for="provincia">Provincia:</label></th>
+        </tr>
+        <tr>
+          <td><input type="email" id="email" name="email" size="40" required></td>
+          <td><select required name="provincia" class="form-control" required>
+              <option value="Madrid">Madrid</option>
+              <option value="Cataluña">Cataluña</option>
+              <option value="Valencia">Valencia</option>
+              <option value="Sevilla">Sevilla</option>
+            </select></td>
+        </tr>
+        <tr>
+          <th>Domicilio (Calle,plaza y numero):</th>
+          <th>Localidad:</th>
+        </tr>
+        <tr>
+          <td><input type="text" name="domicilio" size="40" /></td>
+          <td><input type="text" name="localidad" /></td>
+
+        </tr>
+
+
+      </table>
+  </div>
+  <div class="formulario2">
+    <fieldset>
+      <legend>Seleccione profesional que desea contratar (*)</legend>
+      <input type="radio" id="Software Engineer" name="Software Engineer" value="Software Engineer">
+      <label for="Software Engineer">Software Engineer</label><br>
+      <input type="radio" id="Data Scientist" name="Data Scientist" value="Data Scientist">
+      <label for="Data Scientist">Data Scientist</label><br>
+      <input type="radio" id="QA Tester" name="QA Tester" value="QA Tester">
+      <label for="QA Tester">QA Tester</label><br>
+      <input type="radio" id="Web Developer" name="Web Developer" value="Web Developer">
+      <label for="Web Developer">Web Developer</label><br>
+      <input type="radio" id="UX Designer" name="UX Designer" value="UX Designer">
+      <label for="UX Designer">UX Designer</label><br>
+  </div>
+  <div class="formulario3">
+    <fieldset>
       <legend>Metodo de desarrollo de su preferencia (*)</legend>
       <input type="checkbox" id="metodo1" name="metodo1" value="metodo1">
       <label for="metodo1"> Kanban</label><br>
@@ -95,9 +102,9 @@
       <label for="metodo3"> Lean</label><br>
       <input type="checkbox" id="metodo4" name="metodo4" value="metodo4">
       <label for="metodo4"> Waterfall</label>
-    </div>
-    <div class="formulario4">
-      <fieldset>
+  </div>
+  <div class="formulario4">
+    <fieldset>
       <legend>Descripcion del proyecto y fecha de finalizacion</legend>
       <table>
         <tr>
@@ -117,17 +124,18 @@
           <td><input type="file" id="adjunto" name="adjunto"></td>
         </tr>
 
-        </table>
-    </div>
-    <div class="formulario5">
-        <fieldset>
-        <input type="reset"> 
-        <input type="submit" value="Enviar">
-    </div>
-  </form>
+      </table>
+  </div>
+  <div class="formulario5">
+    <fieldset>
+      <input type="reset">
+      <input type="submit" value="Enviar">
+  </div>
+</form>
 <footer>
   <a class="botones" href="">CONTACTO</a>
   <a class="botones" href="" title="">SITEMAP</a>
   <a class="botones" href="" title="">TEXTO LEGAL</a>
 </footer>
+
 </html>
