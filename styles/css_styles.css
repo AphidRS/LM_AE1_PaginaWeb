@@ -1139,7 +1139,7 @@
 /*******Portrait*********/
 /********************/
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
 
     @font-face {
         font-family: 'versaversa';
@@ -1424,7 +1424,7 @@
 /*******Landscape**********/
 /********************/
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     @font-face {
         font-family: 'versaversa';
         src: url('fonts/versa-versa-webfont.woff2') format('woff2'),
