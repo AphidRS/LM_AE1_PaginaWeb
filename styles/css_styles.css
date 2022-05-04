@@ -1425,6 +1425,7 @@
 /********************/
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1080px) and (orientation: landscape) {
+
     @font-face {
         font-family: 'versaversa';
         src: url('fonts/versa-versa-webfont.woff2') format('woff2'),
